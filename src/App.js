@@ -48,8 +48,8 @@ class App extends React.Component {
       });
       
       const person = {...this.state.person, id: this.drone.clientId};
-      this.setState({person});
-    });
+        this.setState({person});
+      });
 
     const room = this.drone.subscribe(this.roomName);
 
