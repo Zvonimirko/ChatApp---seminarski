@@ -184,7 +184,7 @@ form > .messageButton:active {
 }
 
 .sendForm input:focus {
-  outline-width: 0;
+  outline:none
 }
 
 .sendForm input::placeholder {
