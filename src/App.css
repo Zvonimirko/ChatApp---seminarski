@@ -151,6 +151,8 @@ form > .messageButton:active {
   font-size: 1.7em;
   box-shadow: var(--box-shadow);
   word-wrap: break-word;
+  text-align: left;
+  hyphens: auto;
 }
 
 .message > .text {
@@ -161,6 +163,7 @@ form > .messageButton:active {
   font-size: 1.7em;
   box-shadow: var(--box-shadow);
   overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .sendForm {
