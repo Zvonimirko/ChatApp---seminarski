@@ -26,8 +26,11 @@ class App extends React.Component {
     this.drone = new window.Scaledrone("QNtSp4VHx9uOCZTM", {
       data: this.state.person
     });
+    
     this.drone.on('open', error => {
+      // Connection has been opened if no error
       if (error) {
+      // An error has occurred with the connection
         return console.error(error);
       }
       
